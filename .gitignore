@@ -1,8 +1,8 @@
 #eclipse
-./.classpath
+.classpath
 
 #eclipse
-./.project
+.project
 
 #bin
-./bin
+bin
