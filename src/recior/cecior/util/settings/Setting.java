@@ -11,7 +11,7 @@ public class Setting {
 	
 	static Logger log = new Logger("SETTINGS");
 	static String s = System.getProperty("user.dir");
-	static File S = new File(s + "settings.json");
+	static File S = new File(s + "settings.ior");
 	public ArrayList<SettingPairS<SettingPair, Boolean>> SMAP = new ArrayList<>();
 
 	//Example Classes
@@ -22,9 +22,9 @@ public class Setting {
 	//In future
 	SettingPair CONFIG_LOC;
 	
-	//JSON
+	//IOR
 	static IORHelper J = new IORHelper(S);
-	//JSON
+	//IOR
 	
 	public static void save() {
 		//code as your prefrence
